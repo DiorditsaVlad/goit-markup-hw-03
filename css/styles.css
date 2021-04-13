@@ -18,12 +18,14 @@
 .section{
     padding-top: 94px;
     padding-bottom: 94px;
+ 
 }
 ul{
     margin: 0;
     padding: 0;
 }
 body{
+    
     font-family: var(--primary-font);
     background-color: var(--pr-bg-cl);
     letter-spacing: 0.03em;
