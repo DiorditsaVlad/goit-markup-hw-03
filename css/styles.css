@@ -12,19 +12,16 @@
 .container{
     width: 1200px;
     margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px
-}
-.section{
-    padding-top: 94px;
-    padding-bottom: 94px;
- 
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px
 }
 ul{
     margin: 0;
-    padding: 0;
-}
+    padding: 0;}
+
+
+
 body{
     
     font-family: var(--primary-font);
@@ -33,13 +30,43 @@ body{
     font-size: 14px;
     color: var(--pr-title-color);
 }
+.flex-header{
+    display: flex;
+    
+}
+.header-main{
+    display: flex;
+    align-items: center;
+}
+.header-main-list{
+    display: flex;
+    margin-left: auto;
+}
+.site-nav{
+    display: flex;
+}
+.site-nav .item{
+    margin-right: 50px;
+}
+.aut-list {
+    display: flex;
+}
+
+
+.aut-list .item:not(:last-child){
+    margin-right: 50px;
+  }
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+ 
+}
 .link{
     text-decoration: none;
     color: inherit;
 }
 .list{
     list-style: none;
-    margin: 0;
 }
 
 .link:hover,
@@ -53,8 +80,8 @@ body{
     text-decoration: none;
     color: inherit;
     display:inline-block;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-right: 93px;
+ 
    
 }
 .logo-web{
@@ -69,9 +96,10 @@ body{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    display: inline-block;
+
+    display: block;
+    padding-top: 31px;
+    padding-bottom: 31px;
     
 }
 .aut-nav{
@@ -79,9 +107,13 @@ body{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    display: inline-block;
+   
+    display: block;
+    padding-top: 31px;
+    padding-bottom: 31px;
+   
+    
+    
 }
 .studio{
     color: var(--accent-color);
