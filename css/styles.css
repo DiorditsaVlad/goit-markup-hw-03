@@ -185,6 +185,13 @@ body{
     line-height: 1.71;
     color: var(--pr-text-color);
     margin: 0;
+    
+}
+.pr-flex{
+    display: flex;
+}
+.pr-flex .item:not(:last-child){
+    margin-right: 30px;
 }
 .features-title{
     font-weight: 700;
@@ -194,6 +201,12 @@ body{
     margin: 0;
     margin-bottom: 50px ;
 }
+.features-flex{
+    display: flex;
+}
+.features-flex .item:not(:last-child){
+    margin-right: 30px;
+}
 .team-title{
     font-weight: 700;
     font-size: 36px;
@@ -201,6 +214,12 @@ body{
     text-align: center;
     margin: 0;
     margin-bottom: 50px;
+}
+.team-flex{
+    display: flex;
+}
+.team-flex .item:not(:last-child){
+    margin-right: 30px;
 }
 
 
