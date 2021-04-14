@@ -34,6 +34,7 @@ body{
 }
 .flex-header{
     display: flex;
+    border-bottom: 1px solid #ECECEC;
     
 }
 .header-main{
