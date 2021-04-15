@@ -132,7 +132,7 @@ body{
 }
 .btn:hover,
 .btn:focus{
-    /* color: var(--pr-wht-color); */
+     color: var(--pr-wht-color); 
     background-color: var(--accent-color);
 }
 .btn{
