@@ -67,7 +67,7 @@ body{
 .link:focus{
     color: var(--accent-color);
 }
-.logo {
+.logo{
     font-family: Raleway, sans-serif;
     font-size: 26px;
     line-height: 1.19;
@@ -75,8 +75,6 @@ body{
     color: inherit;
     display:inline-block;
     margin-right: 93px;
- 
-   
 }
 .logo-web{
     color: var(--accent-color);
@@ -84,8 +82,7 @@ body{
 .logo{
     color: #000000;
 }
-
-.pr-nav {
+.pr-nav{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -94,7 +91,6 @@ body{
     display: block;
     padding-top: 31px;
     padding-bottom: 31px;
-    
 }
 .aut-nav{
     font-weight: 500;
@@ -104,10 +100,7 @@ body{
    
     display: block;
     padding-top: 31px;
-    padding-bottom: 31px;
-   
-    
-    
+    padding-bottom: 31px;  
 }
 .studio{
     color: var(--accent-color);
@@ -116,7 +109,6 @@ body{
     color: var(--pr-text-color);
 }
 /* main */
-
 .section-pr{
     background-color: var(--secondary-bg-cl);
     text-align: center;
@@ -136,7 +128,6 @@ body{
 .btn:focus{
     /* color: var(--pr-wht-color); */
     background-color: var(--accent-color);
-
 }
 .btn{
     border-radius: 4px;
@@ -153,8 +144,6 @@ body{
     color: var(--pr-wht-color);
     border: 0;
     padding: 10px 32px;
-    
-    
 }
 .visually-hidden{
     position: absolute !important;
@@ -182,8 +171,7 @@ body{
     padding: 0;
 }
 .pr-flex{
-    display: flex;
-    
+    display: flex;  
 }
 .item-flex{
     flex-wrap: wrap;
@@ -228,8 +216,6 @@ body{
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
-
-
 .team-person{
     font-weight: 500;
     font-size: 16px;
@@ -257,39 +243,30 @@ body{
     font-size: 14px;
     line-height: 1.71;
     color: var(--pr-wht-color);
-    
 }
-.address p {
+.address p{
     margin: 0;
     padding-top: 20px;
     padding-bottom: 10px;
 }
 .logo-footer{
-    
         font-family: Raleway, sans-serif;
         font-size: 26px;
         line-height: 1.19;
         color: var(--pr-wht-color);
         text-decoration: none;
-
-        display: block;
-       
-        
-        }
+        display: block; 
+}
 .aut-nav-footer{
     color: var(--pr-text-color);
     margin: 0;
     padding-bottom: 10px;
     display: inline-block;
     padding-left: 0;
-   
 }
 .footer-list{
     padding-bottom: 60px;
 }
-
-
-
 /* !ПОРТФОЛИO */
 .btn-work{
  display: flex;
@@ -303,7 +280,6 @@ body{
     background: #F5F4FA;
     border: 0;
     padding: 6px 22px;
-    
 }
 .all{
     background-color: var(--accent-color);
@@ -314,16 +290,13 @@ body{
    justify-content: center;
    margin-bottom: 50px;
 }
-
 .list-works .item:not(:last-child){
     margin-right: 8px;
 }
 .link-port{
     text-decoration: none;
-    color: inherit;
-    
+    color: inherit; 
 }
-
 .example-work{
     font-weight: 700;
     font-size: 18px;
@@ -360,7 +333,7 @@ body{
 
 .flex-element:nth-child(3n){
         margin: 0;
-    }
+}
 
 .flex-element:nth-last-child(-n+3){
     margin-bottom: 0;
