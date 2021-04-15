@@ -253,14 +253,14 @@ body{
     margin: 0;
     padding-top: 30px;
     padding-bottom: 10px;
-    padding-left: 60px;
+    text-align: center;
 }
 .team-card{
     font-size: 16px;
     line-height: 1.18;
     color: var(--pr-text-color);
     margin: 0;
-    padding-left: 70px;
+    text-align: center;
     padding-bottom: 30px;
 }
 /* подвал */
