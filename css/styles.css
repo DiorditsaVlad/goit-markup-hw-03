@@ -112,17 +112,23 @@ body{
 .section-pr{
     background-color: var(--secondary-bg-cl);
     text-align: center;
+    height: 600px;
+}
+.section-wt{
+    height: 600px;
+    max-width: 696px;
 }
 .pr-title{
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
     letter-spacing: 0.06em;
+    text-align: center;
     text-transform: uppercase;
     color: var(--pr-wht-color);
     margin: 0;
     margin-bottom: 30px;
+    padding-top: 200px;
 }
 .btn:hover,
 .btn:focus{
@@ -131,7 +137,6 @@ body{
 }
 .btn{
     border-radius: 4px;
-    /* color: var(--pr-title-color); */
 }
 .pr-btn{
     font-weight: 700;
@@ -326,15 +331,11 @@ body{
 .flex-element{
    flex-basis: calc((100% - 30px * 9) / 9);
     margin-right: 30px;
-    margin-bottom: 30px;
-   
+    margin-bottom: 30px; 
 }
-
-
 .flex-element:nth-child(3n){
         margin: 0;
 }
-
 .flex-element:nth-last-child(-n+3){
     margin-bottom: 0;
 }
